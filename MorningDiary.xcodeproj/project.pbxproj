@@ -12,8 +12,6 @@
 		268594331E591FF800639E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268594311E591FF800639E12 /* Main.storyboard */; };
 		268594351E591FF800639E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268594341E591FF800639E12 /* Assets.xcassets */; };
 		268594381E591FF800639E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268594361E591FF800639E12 /* LaunchScreen.storyboard */; };
-		268594431E591FF800639E12 /* MorningDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268594421E591FF800639E12 /* MorningDiaryTests.swift */; };
-		2685944E1E591FF800639E12 /* MorningDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685944D1E591FF800639E12 /* MorningDiaryUITests.swift */; };
 		268594531E591FF800639E12 /* MorningDiary WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 268594521E591FF800639E12 /* MorningDiary WatchKit App.app */; };
 		268594591E591FF800639E12 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268594571E591FF800639E12 /* Interface.storyboard */; };
 		2685945B1E591FF800639E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2685945A1E591FF800639E12 /* Assets.xcassets */; };
@@ -26,20 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2685943F1E591FF800639E12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 268594221E591FF700639E12 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 268594291E591FF700639E12;
-			remoteInfo = MorningDiary;
-		};
-		2685944A1E591FF800639E12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 268594221E591FF700639E12 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 268594291E591FF700639E12;
-			remoteInfo = MorningDiary;
-		};
 		268594541E591FF800639E12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 268594221E591FF700639E12 /* Project object */;
@@ -89,12 +73,6 @@
 		268594341E591FF800639E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268594371E591FF800639E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		268594391E591FF800639E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2685943E1E591FF800639E12 /* MorningDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorningDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		268594421E591FF800639E12 /* MorningDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningDiaryTests.swift; sourceTree = "<group>"; };
-		268594441E591FF800639E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		268594491E591FF800639E12 /* MorningDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorningDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2685944D1E591FF800639E12 /* MorningDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningDiaryUITests.swift; sourceTree = "<group>"; };
-		2685944F1E591FF800639E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268594521E591FF800639E12 /* MorningDiary WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MorningDiary WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268594581E591FF800639E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		2685945A1E591FF800639E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,20 +95,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2685943B1E591FF800639E12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		268594461E591FF800639E12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2685945E1E591FF800639E12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,8 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				2685942C1E591FF800639E12 /* MorningDiary */,
-				268594411E591FF800639E12 /* MorningDiaryTests */,
-				2685944C1E591FF800639E12 /* MorningDiaryUITests */,
 				268594561E591FF800639E12 /* MorningDiary WatchKit App */,
 				268594651E591FF800639E12 /* MorningDiary WatchKit Extension */,
 				2685942B1E591FF800639E12 /* Products */,
@@ -157,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				2685942A1E591FF800639E12 /* MorningDiary.app */,
-				2685943E1E591FF800639E12 /* MorningDiaryTests.xctest */,
-				268594491E591FF800639E12 /* MorningDiaryUITests.xctest */,
 				268594521E591FF800639E12 /* MorningDiary WatchKit App.app */,
 				268594611E591FF800639E12 /* MorningDiary WatchKit Extension.appex */,
 			);
@@ -176,24 +136,6 @@
 				268594391E591FF800639E12 /* Info.plist */,
 			);
 			path = MorningDiary;
-			sourceTree = "<group>";
-		};
-		268594411E591FF800639E12 /* MorningDiaryTests */ = {
-			isa = PBXGroup;
-			children = (
-				268594421E591FF800639E12 /* MorningDiaryTests.swift */,
-				268594441E591FF800639E12 /* Info.plist */,
-			);
-			path = MorningDiaryTests;
-			sourceTree = "<group>";
-		};
-		2685944C1E591FF800639E12 /* MorningDiaryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2685944D1E591FF800639E12 /* MorningDiaryUITests.swift */,
-				2685944F1E591FF800639E12 /* Info.plist */,
-			);
-			path = MorningDiaryUITests;
 			sourceTree = "<group>";
 		};
 		268594561E591FF800639E12 /* MorningDiary WatchKit App */ = {
@@ -250,42 +192,6 @@
 			productReference = 2685942A1E591FF800639E12 /* MorningDiary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2685943D1E591FF800639E12 /* MorningDiaryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 268594801E591FF800639E12 /* Build configuration list for PBXNativeTarget "MorningDiaryTests" */;
-			buildPhases = (
-				2685943A1E591FF800639E12 /* Sources */,
-				2685943B1E591FF800639E12 /* Frameworks */,
-				2685943C1E591FF800639E12 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				268594401E591FF800639E12 /* PBXTargetDependency */,
-			);
-			name = MorningDiaryTests;
-			productName = MorningDiaryTests;
-			productReference = 2685943E1E591FF800639E12 /* MorningDiaryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		268594481E591FF800639E12 /* MorningDiaryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 268594831E591FF800639E12 /* Build configuration list for PBXNativeTarget "MorningDiaryUITests" */;
-			buildPhases = (
-				268594451E591FF800639E12 /* Sources */,
-				268594461E591FF800639E12 /* Frameworks */,
-				268594471E591FF800639E12 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2685944B1E591FF800639E12 /* PBXTargetDependency */,
-			);
-			name = MorningDiaryUITests;
-			productName = MorningDiaryUITests;
-			productReference = 268594491E591FF800639E12 /* MorningDiaryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		268594511E591FF800639E12 /* MorningDiary WatchKit App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 268594791E591FF800639E12 /* Build configuration list for PBXNativeTarget "MorningDiary WatchKit App" */;
@@ -333,28 +239,19 @@
 					268594291E591FF700639E12 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N2N6QT9VB6;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
-					};
-					2685943D1E591FF800639E12 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = N2N6QT9VB6;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 268594291E591FF700639E12;
-					};
-					268594481E591FF800639E12 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = N2N6QT9VB6;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 268594291E591FF700639E12;
 					};
 					268594511E591FF800639E12 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N2N6QT9VB6;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					268594601E591FF800639E12 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N2N6QT9VB6;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -373,8 +270,6 @@
 			projectRoot = "";
 			targets = (
 				268594291E591FF700639E12 /* MorningDiary */,
-				2685943D1E591FF800639E12 /* MorningDiaryTests */,
-				268594481E591FF800639E12 /* MorningDiaryUITests */,
 				268594511E591FF800639E12 /* MorningDiary WatchKit App */,
 				268594601E591FF800639E12 /* MorningDiary WatchKit Extension */,
 			);
@@ -389,20 +284,6 @@
 				268594381E591FF800639E12 /* LaunchScreen.storyboard in Resources */,
 				268594351E591FF800639E12 /* Assets.xcassets in Resources */,
 				268594331E591FF800639E12 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2685943C1E591FF800639E12 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		268594471E591FF800639E12 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,22 +316,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2685943A1E591FF800639E12 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				268594431E591FF800639E12 /* MorningDiaryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		268594451E591FF800639E12 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2685944E1E591FF800639E12 /* MorningDiaryUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2685945D1E591FF800639E12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,16 +330,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		268594401E591FF800639E12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 268594291E591FF700639E12 /* MorningDiary */;
-			targetProxy = 2685943F1E591FF800639E12 /* PBXContainerItemProxy */;
-		};
-		2685944B1E591FF800639E12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 268594291E591FF700639E12 /* MorningDiary */;
-			targetProxy = 2685944A1E591FF800639E12 /* PBXContainerItemProxy */;
-		};
 		268594551E591FF800639E12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 268594511E591FF800639E12 /* MorningDiary WatchKit App */;
@@ -629,7 +484,8 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
@@ -646,7 +502,8 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
@@ -664,7 +521,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
@@ -682,7 +540,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
@@ -698,7 +557,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.eternityi.MorningDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -712,65 +572,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.eternityi.MorningDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		268594811E591FF800639E12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = N2N6QT9VB6;
-				INFOPLIST_FILE = MorningDiaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.eternityi.MorningDiaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorningDiary.app/MorningDiary";
-			};
-			name = Debug;
-		};
-		268594821E591FF800639E12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = N2N6QT9VB6;
-				INFOPLIST_FILE = MorningDiaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.eternityi.MorningDiaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorningDiary.app/MorningDiary";
-			};
-			name = Release;
-		};
-		268594841E591FF800639E12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = N2N6QT9VB6;
-				INFOPLIST_FILE = MorningDiaryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.eternityi.MorningDiaryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = MorningDiary;
-			};
-			name = Debug;
-		};
-		268594851E591FF800639E12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = N2N6QT9VB6;
-				INFOPLIST_FILE = MorningDiaryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.eternityi.MorningDiaryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = MorningDiary;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -809,24 +612,6 @@
 			buildConfigurations = (
 				2685947E1E591FF800639E12 /* Debug */,
 				2685947F1E591FF800639E12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		268594801E591FF800639E12 /* Build configuration list for PBXNativeTarget "MorningDiaryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				268594811E591FF800639E12 /* Debug */,
-				268594821E591FF800639E12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		268594831E591FF800639E12 /* Build configuration list for PBXNativeTarget "MorningDiaryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				268594841E591FF800639E12 /* Debug */,
-				268594851E591FF800639E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
